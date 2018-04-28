@@ -19,11 +19,11 @@ module.exports = {
         ]
     },
     output: {
-        path: parentDir + '/webapp/dist',
+        path: path.join(parentDir, '/webapp/dist'),
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: parentDir,
+        contentBase: path.join(parentDir, 'webapp'),
         historyApiFallback: true
     }
 }
