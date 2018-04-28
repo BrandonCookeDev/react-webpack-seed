@@ -1,11 +1,11 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var parentDir = path.join(__dirname, '../');
+var parentDir = __dirname;
 
 module.exports = {
     entry: [
-        path.join(parentDir, 'webapp', 'src', 'app.js')
+        './src/app.js'
     ],
     module: {
         loaders: [{
@@ -19,11 +19,11 @@ module.exports = {
         ]
     },
     output: {
-        path: path.join(parentDir, '/webapp/dist'),
+        path: parentDir + '/dist',
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: path.join(parentDir, 'webapp'),
+        contentBase: parentDir,
         historyApiFallback: true
     }
 }

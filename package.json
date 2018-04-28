@@ -1,11 +1,13 @@
 {
   "name": "react-webpack-simple",
   "version": "1.0.0",
-  "description": "",
+  "description": "No nonsense, minimal dependency, no gyp anything React-Webpack seed for developers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js;"
+    "build": "./node_modules/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack --progress --colors --watch",
+    "dev": "npm run watch | ./node_modules/.bin/webpack-dev-server --config ./webpack.config.js;"
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
@@ -30,7 +32,7 @@
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   },
-  "author": "",
+  "author": "Brandon Cooke",
   "license": "ISC",
   "babel": {
     "presets": [
@@ -41,5 +43,9 @@
     "plugins": [
       "transform-object-rest-spread"
     ]
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/BrandonCookeDev/react-webpack-simple"
   }
 }
