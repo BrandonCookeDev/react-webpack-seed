@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-seed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "No nonsense, minimal dependency, no gyp anything React-Webpack seed for developers",
   "main": "index.js",
   "scripts": {
@@ -46,6 +46,10 @@
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/BrandonCookeDev/react-webpack-simple"
-  }
+    "url": "https://github.com/BrandonCookeDev/react-webpack-seed"
+  },
+  "keywords": [
+    "react", "webpack", "seed", "bootstrap", "react-bootstrap",
+    "simple", "nononsense", "react-dom"
+  ]
 }
