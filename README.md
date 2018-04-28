@@ -5,6 +5,13 @@ A no nonsense, no gyp dependency, simple seed for React with Webpack.
 Brandon Cooke
 
 ## Installation
+
+#### Git
+```
+git clone https://github.com/BrandonCookeDev/react-webpack-seed.git
+```
+
+#### NPM
 ```
 npm install --save react-webpack-simple
 ```
