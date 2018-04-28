@@ -10,11 +10,16 @@ Brandon Cooke
 ```
 git clone https://github.com/BrandonCookeDev/react-webpack-seed.git
 ```
+then in the cloned directory
+```
+npm install
+```
 
 #### NPM
 ```
 npm install --save react-webpack-simple
 ```
+then extract the folder from your node_modules for use
 
 ## Running development server
 Build the webpack bundle of everything in the src directory, 
