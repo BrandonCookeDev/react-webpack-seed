@@ -1,5 +1,5 @@
 {
-  "name": "react-webpack-simple",
+  "name": "react-webpack-seed",
   "version": "1.0.0",
   "description": "No nonsense, minimal dependency, no gyp anything React-Webpack seed for developers",
   "main": "index.js",

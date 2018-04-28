@@ -1,4 +1,4 @@
-# React-Webpack-Simple
+# React-Webpack-Seed
 A no nonsense, no gyp dependency, simple seed for React with Webpack.
 
 ## Author
