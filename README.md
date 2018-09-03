@@ -19,7 +19,11 @@ npm install
 ```
 npm install --save react-webpack-simple
 ```
-then extract the folder from your node_modules for use
+then run
+```
+./node_modules/.bin/setup-react
+```
+This will copy the seed into a folder called webapp into your project root.
 
 ## Running development server
 Build the webpack bundle of everything in the src directory, 
