@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-seed",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "No nonsense, minimal dependency, no gyp anything React-Webpack seed for developers",
   "main": "index.js",
   "scripts": {
