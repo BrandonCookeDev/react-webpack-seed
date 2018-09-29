@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-seed",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "No nonsense, minimal dependency, no gyp anything React-Webpack seed for developers",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "watch": "./node_modules/.bin/webpack --progress --colors --watch",
     "dev": "npm run watch | ./node_modules/.bin/webpack-dev-server --config ./webpack.config.js;"
   },
-  "preferGlobal": true,
+  "preferGlobal": false,
   "bin": {
     "react": "./bin/setup.js"
   },
