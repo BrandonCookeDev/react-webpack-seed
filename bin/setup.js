@@ -23,7 +23,7 @@ fs.copySync(LIB_ROOT, WEBAPP_DIR);
 console.log('done');
 
 console.log('Running NPM install on new webapp directory...');
-let cmd = `npm install "${WEBAPP_DIR}" --prefix "${WEBAPP_DIR}"`;
+let cmd = `npm install --prefix "${WEBAPP_DIR}" "${WEBAPP_DIR}"`;
 let results = cp.execSync(cmd);
 console.log('done. results: ' + results);
 
