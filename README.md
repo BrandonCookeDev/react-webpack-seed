@@ -6,16 +6,7 @@ Brandon Cooke
 
 ## Installation
 
-#### Git
-```bash
-git clone https://github.com/BrandonCookeDev/react-webpack-seed.git
-```
-then in the cloned directory
-```bash
-npm install
-```
-
-#### NPM
+### NPM
 ```bash
 npm install --save react-webpack-simple
 ```
@@ -24,6 +15,16 @@ then run
 ./node_modules/.bin/react
 ```
 This will copy the seed into a folder called webapp into your project root.
+
+### Git
+```bash
+git clone https://github.com/BrandonCookeDev/react-webpack-seed.git
+```
+then in the cloned directory
+```bash
+npm install
+```
+
 
 ## Running development server
 Build the webpack bundle of everything in the src directory, 
