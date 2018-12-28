@@ -12,7 +12,11 @@ npm install --save react-webpack-simple
 ```
 then run
 ```bash
-./node_modules/.bin/react
+./node_modules/.bin/react-webpack-setup
+```
+or
+```cmd
+start node_modules\.bin\react-webpack-setup
 ```
 This will copy the seed into a folder called webapp into your project root.
 
